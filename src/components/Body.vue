@@ -24,4 +24,9 @@ export default {
   padding: 1rem 2rem;
   color: honeydew;
 }
+@media (max-width: 500px) {
+  .home {
+    padding: 0.5rem 1rem;
+  }
+}
 </style>
