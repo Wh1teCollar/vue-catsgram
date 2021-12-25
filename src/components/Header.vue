@@ -25,6 +25,6 @@ a {
   cursor: pointer;
 }
 a:hover {
-  color: tomato;
+  color: hotpink;
 }
 </style>

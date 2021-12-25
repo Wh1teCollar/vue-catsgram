@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <CatPhoto />
+    <CatPhoto v-for="cat in catsList" v-bind:cat="cat" v-bind:key="cat.id" />
   </div>
 </template>
 
 <script>
 import CatPhoto from "@/components/CatPhoto";
 export default {
-  data: {
-    catsArray: [],
+  props: ["catsList"],
+  data() {
+    return {};
   },
   methods: {},
   mounted() {},

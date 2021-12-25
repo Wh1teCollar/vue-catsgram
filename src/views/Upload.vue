@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Upload</h1>
+    <h1 class="title">Upload</h1>
     <Body />
   </div>
 </template>

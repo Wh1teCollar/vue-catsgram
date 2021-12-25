@@ -1,11 +1,13 @@
 <template>
   <div class="catPhoto">
-    <img src="https://cdn2.thecatapi.com/images/7vg.gif" alt="MTkwMTQ2OQ" />
+    <img :src="cat.url" alt="cat.id" />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["cat"],
+};
 </script>
 
 <style scoped>
