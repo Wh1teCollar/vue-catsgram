@@ -33,7 +33,6 @@ export default {
       isUploaded: false,
       isSelected: false,
       file: "",
-      isLoading: true,
       img: "",
       response: undefined,
     };

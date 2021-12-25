@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">The Cat API - Cats as a Service.</footer>
+  <footer class="footer">Mikhail Glushchenko</footer>
 </template>
 
 <script>
