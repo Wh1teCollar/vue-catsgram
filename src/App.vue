@@ -25,7 +25,7 @@ export default {
 
 <style scope>
 html {
-  background-color: #35495e;
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
