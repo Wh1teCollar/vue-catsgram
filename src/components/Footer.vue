@@ -8,7 +8,7 @@ export default {};
 
 <style scoped>
 .footer {
-  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.4);
+  background-color: #fbc8d4;
   border-radius: 10px;
   padding: 1rem 2rem;
   color: honeydew;

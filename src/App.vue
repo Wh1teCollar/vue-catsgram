@@ -40,7 +40,7 @@ html {
   font-size: 14px;
 }
 .container {
-  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.4);
+  background-color: rgb(207, 177, 224, 0.55);
   border-radius: 10px;
   padding: 1rem 2rem;
   color: honeydew;
