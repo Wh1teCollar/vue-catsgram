@@ -13,10 +13,10 @@ export default {};
 <style scoped>
 .header {
   background-color: #9795f0;
-  border-radius: 10px;
   padding: 1rem 2rem;
   color: honeydew;
   font-size: 2rem;
+  margin: 0;
 }
 a {
   text-decoration: none;

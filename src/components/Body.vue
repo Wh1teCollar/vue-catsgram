@@ -22,7 +22,5 @@ export default {
 .home {
   padding: 1rem 2rem;
   color: honeydew;
-  font-size: 1.5rem;
-  margin: 20px 0;
 }
 </style>

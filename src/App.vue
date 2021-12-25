@@ -24,8 +24,9 @@ export default {
 </script>
 
 <style scope>
-html {
-  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+* {
+  margin: 0;
+  padding: 0;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -33,18 +34,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #cecece;
-  margin-top: 60px;
-  max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
   font-size: 14px;
+  padding: 0;
+  margin: 0;
 }
 .container {
-  background-color: rgb(207, 177, 224, 0.55);
-  border-radius: 10px;
   padding: 1rem 2rem;
   color: honeydew;
   font-size: 1.5rem;
-  margin: 20px 0;
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
 }
 </style>
