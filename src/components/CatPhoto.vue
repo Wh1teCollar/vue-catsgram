@@ -1,6 +1,6 @@
 <template>
   <div class="catPhoto">
-    <img src="https://cdn2.thecatapi.com/images/db4.jpg" alt="MTkwMTQ2OQ" />
+    <img src="https://cdn2.thecatapi.com/images/7vg.gif" alt="MTkwMTQ2OQ" />
   </div>
 </template>
 
