@@ -3,12 +3,10 @@
     <h1 class="title">View</h1>
     <p>The page is under construction</p>
     <Loader v-if="isLoading" />
-    <Body />
   </div>
 </template>
 
 <script>
-import Body from "@/components/Body";
 import Loader from "@/components/Loader";
 export default {
   data() {
@@ -17,7 +15,6 @@ export default {
     };
   },
   components: {
-    Body,
     Loader,
   },
 };

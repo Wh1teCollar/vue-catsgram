@@ -27,4 +27,10 @@ a {
 a:hover {
   color: hotpink;
 }
+@media (max-width: 500px) {
+  .header {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}
 </style>

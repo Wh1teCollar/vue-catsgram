@@ -21,4 +21,11 @@ img {
   height: auto;
   width: 420px;
 }
+@media (max-width: 500px) {
+  img {
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+  }
+}
 </style>
