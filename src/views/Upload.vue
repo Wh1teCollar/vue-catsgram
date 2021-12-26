@@ -67,7 +67,8 @@ export default {
           }, 1000);
         })
         .catch((e) => {
-          console.log(e);
+			alert("ERROR - Any uploads must comply with the upload guidelines or face deletion.");
+			console.log(e);
         });
     },
     addFile() {
