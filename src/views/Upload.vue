@@ -14,8 +14,8 @@
         v-on:change="handleFileUpload()"
       />
     </label>
-    <button class="btnUpload" v-on:click="addFile()">Add image</button>
-    <button class="btnSubmit" v-on:click="submitFile()">Upload file</button>
+    <button class="btnUpload" @click="addFile()">Add image</button>
+    <button v-if="file" class="btnSubmit" @click="submitFile()">Upload file</button>
     <p v-if="isSelected">File selected successfully</p>
     <div v-if="response">
       <p v-if="response">File uploaded successfully</p>
@@ -32,9 +32,9 @@ export default {
     return {
       isUploaded: false,
       isSelected: false,
-      file: "",
-      img: "",
-      response: undefined,
+      file: null,
+      img: null,
+      response: null,
     };
   },
   components: {
