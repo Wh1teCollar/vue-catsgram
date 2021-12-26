@@ -26,7 +26,7 @@ export default {
 }
 @media (max-width: 500px) {
   .home {
-    padding: 0.5rem 1rem;
+    padding: 0;
   }
 }
 </style>

@@ -86,7 +86,7 @@ export default {
     0 1px 5px 0 rgba(0, 0, 0, 0.12);
   align-items: center;
   border-radius: 4px;
-  display: inline-flex;
+  display: inline-block;
   flex: 0 0 auto;
   font-weight: 500;
   letter-spacing: 0.0892857143em;
@@ -95,7 +95,7 @@ export default {
   height: 44px;
   min-width: 78px;
   padding: 0 19.5555555556px;
-  margin-right: 20px;
+  margin: 10px;
 }
 .btnSubmit {
   background-color: #4caf50 !important;
@@ -105,7 +105,7 @@ export default {
     0 1px 5px 0 rgba(0, 0, 0, 0.12);
   align-items: center;
   border-radius: 4px;
-  display: inline-flex;
+  display: inline-block;
   flex: 0 0 auto;
   font-weight: 500;
   letter-spacing: 0.0892857143em;
@@ -114,6 +114,7 @@ export default {
   height: 44px;
   min-width: 78px;
   padding: 0 19.5555555556px;
+  margin: 10px;
 }
 .uploadImg {
   border: 1px solid purple;
